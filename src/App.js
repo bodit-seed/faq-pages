@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {useRoutes} from 'hookrouter';
+import TOC from "./TOC";
+import Content from "./Content";
+
+const routes = {
+    '/': () => (contents) => <TOC contents={contents}/>,
+    '/:id': ({id}) => (contents) => <Content id={id} contents={contents}/>
+};
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const contents = [
+        {id: 1, title: "防水機能はありますか。"},
+        {id: 2, title: "充電時間と使用時間はどれくらいですか。"},
+        {id: 3, title: "着用は必ず右側にしなければならないですか。"}
+    ];
+
+    return useRoutes(routes)(contents)
 }
 
 export default App;

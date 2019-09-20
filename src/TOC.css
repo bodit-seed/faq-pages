@@ -1,0 +1,28 @@
+.TOC h2 {
+    margin: 10px;
+}
+
+.TOC nav {
+    background: white;
+}
+
+.TOC nav a {
+    display: block;
+    padding: 20px 30px 20px 15px;
+    /*padding: 30px;*/
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid gray;
+    background: url("rsrc/chevron_right.png") no-repeat center right 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.TOC nav a:last-child {
+    border-bottom: 1px solid gray;
+}
+
+.TOC nav a:active {
+    background-color: lightgray;
+}
