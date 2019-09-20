@@ -1,13 +1,14 @@
 import React from "react";
 import './TOC.css';
+import {Link} from "react-router-dom";
 
-function TOC(pros) {
+function TOC({contents}) {
 
     let q_list = [];
 
-    pros.contents.forEach((item) => {
+    contents.forEach((item) => {
         q_list.push(
-            <a key={item.id} href={item.id}>{item.title}</a>
+            <Link to={{pathname: item.id}}>{item.title}</Link>
         )
     });
 
