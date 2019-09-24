@@ -1,5 +1,14 @@
 .TOC {
     background: #eaecee;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 540px) {
+    .TOC {
+        max-width: 540px;
+        border: black solid 1px;
+    }
 }
 
 .TOC h2 {
