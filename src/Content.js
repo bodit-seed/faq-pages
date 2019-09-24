@@ -1,11 +1,12 @@
 import React from "react";
+import './css/Content.css'
 
 function Content({title, answer}) {
     return (
-        <div>
+        <div className='Content'>
             <h2>{title}</h2>
             <article>
-                {answer}
+                {answer.split('\n').map(line => <p dangerouslySetInnerHTML={{__html: line}}/>)}
             </article>
         </div>
     )

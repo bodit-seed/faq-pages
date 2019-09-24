@@ -1,5 +1,10 @@
+.TOC {
+    background: #eaecee;
+}
+
 .TOC h2 {
-    margin: 10px;
+    padding: 10px;
+    margin: 0;
 }
 
 .TOC nav {
@@ -8,7 +13,7 @@
 
 .TOC nav a {
     display: block;
-    padding: 20px 30px 20px 15px;
+    padding: 15px 30px 15px 15px;
     /*padding: 30px;*/
     text-decoration: none;
     color: black;
