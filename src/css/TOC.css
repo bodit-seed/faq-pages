@@ -13,7 +13,7 @@
     text-decoration: none;
     color: black;
     border-top: 1px solid gray;
-    background: url("rsrc/chevron_right.png") no-repeat center right 10px;
+    background: url("../rsrc/chevron_right.png") no-repeat center right 10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

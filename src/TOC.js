@@ -1,5 +1,5 @@
 import React from "react";
-import './TOC.css';
+import './css/TOC.css';
 import {Link} from "react-router-dom";
 
 function TOC({contents}) {
@@ -8,7 +8,7 @@ function TOC({contents}) {
 
     contents.forEach((item) => {
         q_list.push(
-            <Link to={{pathname: item.id}}>{item.title}</Link>
+            <Link key={item.id} to={{pathname: item.id}}>{item.title}</Link>
         )
     });
 
