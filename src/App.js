@@ -11,12 +11,12 @@ function App() {
         <Router>
             <Switch>
                 <Route exact strict path="/:id"
-                       render={({match}) => {
+                       render={({match, history}) => {
                            const content = contents.find(item => {
                                return item.id === Number(match.params.id)
                            });
                            if (content)
-                               return <Content title={content.title} answer={content.answer}/>
+                               return <Content history={history} title={content.title} answer={content.answer}/>;
                            else
                                return <TOC contents={contents}/>
                        }}/>

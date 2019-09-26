@@ -1,9 +1,10 @@
 import React from "react";
 import './css/Content.css'
 
-function Content({title, answer}) {
+function Content({history, title, answer}) {
     return (
         <div className='Content'>
+            <button className='btn btn-link' onClick={() => history.replace('/')}>Back</button>
             <h2>{title}</h2>
             <article>
                 {answer.split('\n').map(line => <p dangerouslySetInnerHTML={{__html: line}}/>)}

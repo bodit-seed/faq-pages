@@ -4,7 +4,7 @@
     margin-left: auto;
 }
 
-@media (min-width: 540px) {
+@media (min-width: 576px) {
     .TOC {
         max-width: 540px;
         border: black solid 1px;
