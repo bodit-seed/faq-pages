@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62fa4da7-e4cf-412f-86d3-57cb3d8a308f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ScrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TOC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TOC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Content.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +127,7 @@
       <workItem from="1569473617762" duration="10000" />
       <workItem from="1569488046266" duration="2087000" />
       <workItem from="1569492565720" duration="2621000" />
+      <workItem from="1569816176288" duration="3986000" />
     </task>
     <task id="LOCAL-00001" summary="modify scripts">
       <created>1568871344322</created>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569491855063</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Scroll to top 구현">
+      <created>1569568241222</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569568241222</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +212,8 @@
     <MESSAGE value="폰트 적용 / p태그, 이메일 태그 적용" />
     <MESSAGE value="화면이 넓은 경우 보정" />
     <MESSAGE value="Back 버튼 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back 버튼 추가" />
+    <MESSAGE value="Scroll to top 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scroll to top 구현" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

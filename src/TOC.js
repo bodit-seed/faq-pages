@@ -15,7 +15,7 @@ function TOC({contents}) {
     return (
         <div className="TOC">
             <header>
-                <h2>FAQ</h2>
+                <h2>よくある質問</h2>
             </header>
             <nav>
                 {q_list}
