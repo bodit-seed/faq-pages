@@ -3,11 +3,10 @@ import './css/TOC.css';
 import {Link} from "react-router-dom";
 
 function TOC({contents}) {
-
-    let q_list = [];
+    let qList = [];
 
     contents.forEach((item) => {
-        q_list.push(
+        qList.push(
             <Link key={item.id} to={{pathname: item.id}}>{item.title}</Link>
         )
     });
@@ -18,7 +17,7 @@ function TOC({contents}) {
                 <h2>よくある質問</h2>
             </header>
             <nav>
-                {q_list}
+                {qList}
             </nav>
         </div>
     )

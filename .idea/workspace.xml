@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="62fa4da7-e4cf-412f-86d3-57cb3d8a308f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TOC.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TOC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Content.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -127,7 +127,8 @@
       <workItem from="1569473617762" duration="10000" />
       <workItem from="1569488046266" duration="2087000" />
       <workItem from="1569492565720" duration="2621000" />
-      <workItem from="1569816176288" duration="3986000" />
+      <workItem from="1569816176288" duration="4843000" />
+      <workItem from="1570144608780" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="modify scripts">
       <created>1568871344322</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569568241222</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="뒤로가기 버튼 스타일 수정 / FAQ 제목 일본어로 변경">
+      <created>1569826569235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569826569235</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +221,8 @@
     <MESSAGE value="화면이 넓은 경우 보정" />
     <MESSAGE value="Back 버튼 추가" />
     <MESSAGE value="Scroll to top 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scroll to top 구현" />
+    <MESSAGE value="뒤로가기 버튼 스타일 수정 / FAQ 제목 일본어로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="뒤로가기 버튼 스타일 수정 / FAQ 제목 일본어로 변경" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
